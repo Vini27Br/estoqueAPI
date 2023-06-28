@@ -1,5 +1,5 @@
 create table cliente (
 idcl int not null auto_increment primary key,
-nomecliente varchar(20)
+nomecliente varchar(20) not null
 
 )

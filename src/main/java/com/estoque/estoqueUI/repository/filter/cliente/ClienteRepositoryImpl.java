@@ -17,7 +17,7 @@ import javax.persistence.criteria.Root;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClienteRepositoryIMPL  implements ClienteRepositoryQuery{
+public class ClienteRepositoryImpl implements ClienteRepositoryQuery{
 
 
     @PersistenceContext

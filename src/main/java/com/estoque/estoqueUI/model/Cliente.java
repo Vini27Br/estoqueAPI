@@ -6,6 +6,8 @@ package com.estoque.estoqueUI.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 
@@ -23,7 +25,7 @@ public class Cliente {
 
     @OneToMany(mappedBy = "cliente")
     @JsonIgnore
-
+    private List<ContasReceber> contasRecebersCliente = new ArrayList<>();
 
     public int getIdcl() {
         return idcl;
